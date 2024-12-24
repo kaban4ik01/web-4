@@ -1,187 +1,75 @@
-html {
-	height: 100%;
-	background-color: rgb(172, 176, 226)
-}
-
-body {
-	margin: auto;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.h1__PC
-{
-	display: none;
-}
-
-h3
-{
-	padding: auto;
-}
-.head__item {
-	color: #7c7c7c;
-}
-
-.header__nav {
-	display: flex;
-	justify-content: space-between;
-	padding: 0px;
-	font-weight: 900;
-}
-
-.header {
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-	padding-bottom: 20px;
-	background-color: #7b7cdb;
-}
-
-.flower
-{
-	width: 40%;
-}
-
-.YTVK
-{
-	width: 50%;
-}
-
-.head__list {
-	display: none;
-	gap: 50px;
-	
-}
-
-.h1__mobile
-{
-	padding-right: 25%;
-}
-
-.head__item__mobile
-{
-	list-style: none;
-}
-
-ul {
-	list-style: none;
-	padding-left: 0;
-
-}
-
-li
-{
-	margin-top: 10px;
-}
-
-
-
-.context-a
-{
-	margin: 0;
-}
-
-.array
-{
-	text-align: center;
-}
-
-.name {
-	text-align: center;
-	margin: 0;
+ul,
+li {
 	padding: 0;
+	text-decoration: none;
+	list-style: none;
 }
 
 main {
-	justify-content: center;
-	width: 100%;
-	margin: auto;
-	background-color: #7b7cdb;
+	background-color: #379683;
 }
 
-ol {
-	list-style-type: none;
-	padding-left: 0;
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+html,
+body {
+	font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 }
 
-table {
-	width: 100px;
-	border-collapse: collapse;
-	text-align: center;
-	margin: auto;
+header {
+	background-color: #05386B;
 }
 
-td {
-	border: 2px solid black;
-	padding: 10px;
-	font-size: 18px;
-}
-
-th {
-	border: 2px solid black;
-	padding: 10px;
-	font-size: 18px;
-	background-color: white;
+header * {
 	color: black;
 }
 
-tr:nth-child(odd) {
-	background-color: rgb(203, 33, 33);
-	color: white;
+.content {
+	background-color: #5cdb95;
 }
-tr:nth-child(even) {
-	background-color: rgb(10, 15, 167);
-	color: white;
-}
-
-a {
-	text-decoration: none;
-	color: rgb(50, 6, 206);
-}
-
-.logo_jpg {
-	width: 50px;
+.logo img {
 	height: 50px;
 }
-
-footer
-{
-	padding-top: 100px;
-	font-size: 30px;
+.h-40px {
+	height: 40px;
+}
+.mw-960px {
+	max-width: 960px;
 }
 
-#biography
-{
-	width: 100%;
-	box-sizing: border-box;
+.t1 td,
+.t1 th {
+	width: 40px;
+	border: 1px black solid;
+	text-align: center;
+}
+td:nth-child(odd) {
+	background-color: rgb(33, 203, 69);
+	color: white;
 }
 
+td:nth-child(even) {
+	background-color: rgb(10, 167, 136);
+	color: blue;
+}
+footer {
+	background-color: #05386B;
+}
 
-@media (min-width: 768px)
-{
-	main {
-		background-color: #7b7cdb;
-		width: 50%;
-		
-
+@media screen and (min-width: 768px) {
+	.mw-md-960px {
+		max-width: 960px;
 	}
-
-	.h1__PC {
-		display: contents;
+	.h-md-100 {
+		height: 100%;
 	}
-
-	.head__item__mobile {
-		display: none;
+	.h-md-44px {
+		height: 44px;
 	}
-
-	.h1__mobile {
-		display: none;
+	.logo img {
+		height: 100%;
 	}
-
-	.head__list {
-		display: flex;
-		gap: 50px;
-		display: content;
-	}
-	
-
 }
